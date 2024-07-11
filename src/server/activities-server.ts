@@ -32,6 +32,7 @@ async function create({ tripId, occurs_at, title }: ActivityCreate) {
 
 async function getActivitiesByTripId(tripId: string) {
   try {
+    console.log("tripId:", tripId)
     const { data } = await API.get<ActivityResponse>(
       `/trips/${tripId}/activities`
     )

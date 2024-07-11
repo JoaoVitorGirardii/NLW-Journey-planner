@@ -19,7 +19,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#09090B"
-      }
+      },
+      "package": "com.joaovitorgirardi.planner"
     },
     "web": {
       "bundler": "metro",
